@@ -2,8 +2,8 @@ name: Publish image to Docker Hub
 on:
   [workflow_dispatch]
 jobs:
-publishimage:
-  runs-on: ubuntu-latest
+  publishimage:
+    runs-on: ubuntu-latest
     steps:
       - name: checkout
         uses: actions/
